@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header,
@@ -43,10 +44,121 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 8px 128px;
+    padding: 8px 256px;
 }
 
 .intro {
     display: flex;
-    padding: 8px 128px;
+    justify-content: space-between;
+    padding: 64px 256px;
+    flex-wrap: wrap;
+    row-gap: 32px;
+}
+
+.intro-left {
+    width: 500px;
+    text-wrap: wrap;
+}
+
+.intro-img {
+    width: 600px;
+    height: 200px;
+    background-color: gray;
+}
+
+.intro-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 32px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 800;
+}
+
+.info-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.infocards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 128px;
+    row-gap: 32px;
+    padding: 8px 128px 128px 128px;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    border: 2px solid #3882f6;
+    margin-bottom: 8px;
+}
+
+.info {
+    text-align: center;
+    text-wrap: wrap;
+    width: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 128px 25%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-attr {
+    text-align: right;
+    font-weight: 800;
+}
+
+.signup {
+    padding: 64px 12.5%;
+}
+
+.signup-banner {
+    background-color: #3882f6;
+    border-radius: 16px;
+    padding: 48px 128px;
+    display: flex;
+    flex: 1;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+.signup-heading,
+.signup-text {
+    color: #f9faf8;
+}
+
+.signup-heading {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.signup-button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 8px 32px;
+    font-weight: 800;
+}
+
+.footer {
+    color: #e5e7eb;
+    text-align: center;
+    padding: 32px 0;
 }
