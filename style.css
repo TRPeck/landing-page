@@ -28,7 +28,7 @@ body {
 ul {
     list-style: none;
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
 a {
@@ -44,13 +44,14 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 8px 256px;
+    align-items: center;
+    padding: 8px 12.5%;
 }
 
 .intro {
     display: flex;
     justify-content: space-between;
-    padding: 64px 256px;
+    padding: 64px 13%;
     flex-wrap: wrap;
     row-gap: 32px;
 }
@@ -91,7 +92,7 @@ a {
     flex-wrap: wrap;
     column-gap: 128px;
     row-gap: 32px;
-    padding: 8px 128px 128px 128px;
+    padding: 8px 128px 64px 128px;
 }
 
 .info-img {
